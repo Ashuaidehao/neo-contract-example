@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Neo.SmartContract.Framework" Version="2.9.3.1" />
+  </ItemGroup>
+
+  <Target Name="NeoBuild" AfterTargets="AfterBuild">
+    <Exec WorkingDirectory="$(OutputPath)" Command="neon $(AssemblyName).dll --compatible"></Exec>
+  </Target>
+</Project>
