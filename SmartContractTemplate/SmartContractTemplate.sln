@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartContractTemplate", "SmartContractTemplate\SmartContractTemplate.csproj", "{D71124FD-EDBB-482E-9E32-119CCAB05FF0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartContractTemplate", "SmartContractTemplate\SmartContractTemplate.csproj", "{D71124FD-EDBB-482E-9E32-119CCAB05FF0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "examples", "examples", "{70299A95-1FB9-48EB-8301-217C234C25AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DepositWithdrawContract", "examples\DepositWithdrawContract\DepositWithdrawContract.csproj", "{F8B9EC15-03F8-45A1-BDA3-A424D4B10BD3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DepositWithdrawContract", "examples\DepositWithdrawContract\DepositWithdrawContract.csproj", "{F8B9EC15-03F8-45A1-BDA3-A424D4B10BD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RollbackContract", "examples\RollbackContract\RollbackContract.csproj", "{EFD7620D-E12C-4896-B587-3DF4A6CA6147}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,12 +25,17 @@ Global
 		{F8B9EC15-03F8-45A1-BDA3-A424D4B10BD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8B9EC15-03F8-45A1-BDA3-A424D4B10BD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8B9EC15-03F8-45A1-BDA3-A424D4B10BD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFD7620D-E12C-4896-B587-3DF4A6CA6147}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFD7620D-E12C-4896-B587-3DF4A6CA6147}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFD7620D-E12C-4896-B587-3DF4A6CA6147}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFD7620D-E12C-4896-B587-3DF4A6CA6147}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{F8B9EC15-03F8-45A1-BDA3-A424D4B10BD3} = {70299A95-1FB9-48EB-8301-217C234C25AE}
+		{EFD7620D-E12C-4896-B587-3DF4A6CA6147} = {70299A95-1FB9-48EB-8301-217C234C25AE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {783DF8E9-0E11-4F4F-8952-892C8E0D96DC}
